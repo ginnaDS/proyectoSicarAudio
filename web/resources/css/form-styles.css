@@ -1,0 +1,67 @@
+.has-success .not-shine:focus{
+border-color: none;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+
+}
+
+.has-error .not-shine:focus{
+border-color: none;
+color: #000;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+
+
+}
+
+.has-success .not-shine{
+border-color: #000;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+
+}
+
+.has-error .not-shine{
+border-color: #000;
+color: #000;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+
+
+}
+
+
+
+.con_imag{
+    width: 25px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 25px;
+
+}
+
+.con_imagR{
+    width: 25px;
+    margin-left: 41px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+.foot{
+    
+width: 100%; 
+        font-family: 'BenchNine', sans-serif;
+color: #fff;
+background-color: #000;
+}
+
+#contenedor{
+
+
+    background-image: url(../imagenes/logo3.png);
+ background-position-x: 700px;
+    background-position-y: 210px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}

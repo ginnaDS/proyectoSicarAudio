@@ -1,0 +1,513 @@
+body{
+	background-image: url(../imagenes/fondo.png);
+}
+
+
+@font-face{
+
+	font-family: Nine;
+	src:url(fonts/BenchNine-Bold.ttf);
+}
+
+h1{
+
+
+font-family: url(fonts/BenchNine-Bold.ttf), sans-serif;
+
+}
+
+h2,h4{
+font-family: url(fonts/BenchNine-Bold.ttf);
+color: black;
+
+}
+.Fbtn{
+
+	background-color: #e5e4e2;
+	border-radius: 5px;
+	color: 0c090a;
+	border-color: #0c090a;
+	 margin-left: 100px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.Fbtn:hover, .FbtnR:hover {
+background-color: gray;
+color: white;
+border-color:#000; 	
+
+}
+
+#carEve img{
+	width: 300px;
+    height: 400px;
+
+
+}
+
+.FbtnR{
+    background-color: #646D7E;
+	border-radius: 10px;
+	color: white;
+	border-color: #0C090A;
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.div-evt .text{
+  margin-right: 300px;
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  width: 30%;
+  top: 0%;
+  right: 0;
+  padding-right: 5px;
+
+}
+.div-evt .text, .evim{
+
+	-moz-border-radius: 150px;
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+
+
+.div-evt:hover .evim{
+transform: translate(150px, 0px);
+  -ms-transform: translate(150px, 0px);
+  -moz-transform: translate(150px, 0px);
+  -webkit-transform: translate(150px, 0px);
+  -o-transform: translate(150px, 0px);
+
+
+}
+.div-evt:hover .text{
+transform: translate(-150px, 0px);
+  -ms-transform: translate(-150px, 0px);
+  -moz-transform: translate(-150px, 0px);
+  -webkit-transform: translate(-150px, 0px);
+  -o-transform: translate(-150px, 0px);
+
+
+}
+
+
+
+
+.ImTrof{
+
+	width: 70px;
+	margin-right: 25px;
+}
+#Carcontenedor{
+	background-color: #eef1f6;
+}
+
+
+
+.evemi { width: 300px;
+         height: 400px; 
+                     } 
+
+
+	form{
+
+    box-shadow: 0 1px 12px rgb(0, 0, 0);
+		margin-top: 50px;
+		width: 100%;
+		border-color: #a3ca5a;
+    padding: 25px;
+    background: rgba(56, 56, 56, 0.3);
+	}
+	form fieldset{
+
+		width: 35%;
+		margin: 0%;
+		}
+	label{
+		vertical-align: top;
+		display: block;
+	}		
+	input{
+		width: 50%;
+	}
+	textarea{
+		width: 80%;
+		height: 200px;
+	}
+
+.principal{
+background-color: transparent;
+
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+
+}
+
+#up{
+
+	padding-top: 1%; 
+	padding-left: 5%;
+
+
+}
+
+
+#tabInicial{
+
+	height: 100%
+}
+
+.breadColor{
+ background-color:  #c0c0c0;
+
+
+}
+.mapa{
+
+margin-left: -50px;
+
+
+}
+#tabQuienes{
+
+	padding-bottom: 50px;
+}
+
+#tabQuienes ul{
+
+font-weight: bolder;
+
+}
+.foot{
+	
+font-family: 'BenchNine', sans-serif;
+color: black;
+margin: 20px;
+}
+
+.foot a{
+
+  color: black;
+}
+
+.foot a:hover {
+
+  color: white;
+
+
+}
+
+#iniciar_mod h4{
+
+	color: #000;
+	 font-size: 25px;
+}
+
+
+
+
+.bench{
+	font-family: 'BenchNine', sans-serif;
+
+    font-size: 25px;
+     cursor: pointer;
+        border-radius: 3px;
+        color: black;
+
+
+		
+		
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: transparent;
+}
+
+
+
+.nabar{
+background-color: transparent;
+border-color: transparent;
+color: #000;
+
+}
+
+
+
+.nav-bt:hover {
+background-color: #eef1f6;
+border-width: 15px;
+border-radius: 5px;
+
+
+  
+
+}
+
+.nav-bt3:hover {
+background-color: darkgrey;
+color: black;
+
+
+  
+
+}
+.nav-bt2:hover {
+background-color: darkgrey;
+color: yellow;
+
+
+  
+
+}
+
+
+
+
+.carrous{
+	 margin-left: 5%; margin-right: 5%
+
+}
+
+.carrous-f{
+	font-size: 130px;
+	color: #FF0000;
+	text-shadow: 0 1px 2px rgb(0, 0, 0);
+	padding-top: 100px;
+	width: 15%;
+	    margin-left: 147px;
+    margin-top: 140px;
+}
+
+
+
+
+
+.log_imag{
+width: 50px;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+
+
+.panel{
+margin-right: 4%;
+margin-left: 4%;
+border-radius: 10px;
+}
+
+.btn_who{
+   margin-top: 2%;
+   margin-left: 5%;
+   margin-right: 3%;
+   margin-bottom: 3%;
+
+}
+
+.form_label{
+font-family: 'BenchNine', sans-serif;
+color: #000;
+
+
+}
+
+.munF{
+
+ margin-bottom: -25px;
+    margin-left: -10px;
+    margin-top: 20px;
+
+}
+
+.munIdiNR{
+
+	    margin-top: 25px;
+    margin-left: 330px;
+}
+
+
+
+.munIdiNR ul{
+
+margin-left: 150px;
+margin-top: -55px;
+
+}
+
+.munLi{
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
+.munIdiNR a, .munIdi a{
+
+	text-decoration: none;
+	color:#000
+}
+
+.munIdi 
+{
+margin-left: 220px;
+margin-top: 10px;
+margin-bottom: -50px;
+width: 50px;
+
+}
+
+.munIdi ul{
+
+	margin-left: 20px;
+    margin-top: -50px;
+}
+
+.world{
+
+	width: 50px;
+}
+
+
+
+
+
+
+.img_2_modal{
+
+width: 100%;
+height: 300px;
+
+}
+.imgTabCat{
+margin-top: 15px;
+width: 70%;
+height: 300px;
+
+}
+.centro{
+
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 2%;
+}
+
+.Thr{
+
+border-color: #000;margin-top: 10px; margin-bottom: 10px;
+
+}
+
+
+
+.display-table {
+    display: table;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.display-table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
+
+.carM{
+       margin-left: -490px;
+    margin-top: 107px;
+	
+}
+
+
+
+ #tabQuienes p{
+  font-weight: 700;
+
+ }
+
+ #taBQuienes ul{
+
+font-family: tahoma;
+ font-weight: 700;
+ }
+
+
+
+ #popC{
+ 	    padding: 5px 8px;
+ } 
+
+.modalC{
+	width: 690px;
+    margin-top: 66px;
+}
+
+.has-success .form-es:focus{
+border-color: none;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+
+}
+
+.has-success .form_label{
+
+  border-color: none;
+  color: #000;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+
+.trofeos img{
+
+border: 2px solid grey;
+margin: 30px;
+border-radius: 60px;
+width: 150px;
+height: 150px;
+
+
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    color: black;
+}
+
+.carrous-f{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
